@@ -1,3 +1,5 @@
+注：项目框架参照 wqb2017/vue-vant-axios 项目，致谢！
+
 # vue+vantui+vue-router+axios+vuex
 
 ## 使用
