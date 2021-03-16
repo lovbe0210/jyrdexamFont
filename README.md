@@ -1,6 +1,10 @@
 注：项目框架参照 wqb2017/vue-vant-axios 项目，致谢！
 
-# vue+vantui+vue-router+axios+vuex
+公司员工在线考试系统
+
+当前系统为员工移动端项目 演示地址：http://exam.lvyi.club
+
+# 软件架构:vue+vantui+vue-router+axios+vuex
 
 ## 使用
 
