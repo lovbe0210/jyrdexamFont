@@ -49,28 +49,24 @@ $ npm run dev
     |-config
     |-src
       |-components //公共组件
-      |-assets //公共模块
+      |-assets //公共模块，包含图片、引用图标等
       |-directives //自定义指令
       |-filters //过滤器
-      |-mixins //mixins
-      |-router
-      |-store
+      |-router  
+      |-utils 
+        |-request.js // 封装axios，设置跨越解决方案
       |-views
+        |-api //业务方法API
+          |-examing.js //提取业务方法
         |-components //业务公共组件
-          |-button
+          |-exam-list-item
             |-index.vue //入口
             |-style.scss //样式
-            |-images //图片
         |-home //首页
           |-entry
             |-index.vue 模块入口
             |-style.scss
-            |-images
-          |-lists
-            |-index.vue // 列表页
-            |-style.scss
-            |-images
-      |-static //第三方插件
+      |-main.js //入口js，配置了vant按需引入和全局登陆检测
 ```
 
 
