@@ -2,9 +2,7 @@
 
 公司员工在线考试系统
 
-当前系统为员工答题移动端项目 演示地址：http://exam.lvyi.club
-
-后端演示地址：http://admin.lvyi.club
+当前系统为员工答题移动端项目 演示地址：http://exam.lvyi.club  后端演示地址：http://admin.lvyi.club
 
 # 软件架构:vue+vantui+vue-router+axios+vuex
 
