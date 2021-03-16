@@ -2,7 +2,9 @@
 
 公司员工在线考试系统
 
-当前系统为员工移动端项目 演示地址：http://exam.lvyi.club
+当前系统为员工答题移动端项目 演示地址：http://exam.lvyi.club
+
+后端演示地址：http://admin.lvyi.club
 
 # 软件架构:vue+vantui+vue-router+axios+vuex
 
@@ -12,7 +14,7 @@ This is a project template for [vue-cli](https://github.com/vuejs/vue-cli). **It
 
 ```bash
 $ npm install -g vue-cli
-$ vue init wqb2017/ec-vue-cli my-project-name
+$ vue init  lovbe0210/jyrdexamFont  my-project-name
 $ cd my-project-name
 $ npm install
 $ npm run dev
@@ -26,7 +28,6 @@ $ npm run dev
 * [vue-router](https://github.com/vuejs/vue-router)
 * [vuex](https://github.com/vuejs/vuex)
 * [es6](https://github.com/bevacqua/es6)
-* [es6 中文文档](https://github.com/ruanyf/es6tutorial)
 
 2. UI 技术栈
 * [移动端 vant](https://github.com/youzan/vant)
