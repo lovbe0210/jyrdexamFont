@@ -1,0 +1,77 @@
+@import '~@/assets/css/mixin.scss';
+@import '~@/assets/css/function.scss';
+.entry {
+  .back{
+    background: #1A8CFE;
+    color: aliceblue;
+    .text{
+      color: aliceblue;
+    }
+  }
+  .bg{
+    padding-bottom: auto;
+    background: -webkit-linear-gradient(left, #268ffb, #4bcafd);
+    .left_icon{
+      margin-left: 260px;
+    }
+    .right_icon{
+      margin-right: 260px;
+    }
+    .btn{
+      margin-top: 140px;
+    }
+    .bottom{
+      height: 15px;
+    }
+  }
+  .result{
+    margin-left: 30px;
+    margin-right: 30px;
+    .userInfo{
+      border-top-left-radius: 15px;
+      border-top-right-radius: 15px;
+      border-bottom-left-radius: 15px;
+      border-bottom-right-radius: 15px;
+      padding: 0 10px;
+      background-color: #fff;
+      line-height: 1.42857143;
+      font-size: 16px;
+      .headImage{
+        margin-left: 125px;
+      }
+      .userName{
+        color: #666;
+        margin-left: 100px;
+        font-weight: 700;
+        display: block;
+        font-size: 18px;
+        text-align: center;
+        margin: 8px auto 0;
+      }
+      .score{
+        text-align: center;
+        color: #1A8CFE;
+        margin-left: 90px;
+        .text{
+          font-size: 32px;
+          font-weight: 400;
+        }
+        .smallStart{
+          margin-top: 30px;
+          margin-right: 5px;
+        }
+      }
+      .Shoot{
+        background:#F7F8FA;
+        font-weight: 200;
+        text-align: center;
+      }
+      .allSomeone{
+        font-weight: 200;
+        text-align: center;
+        color:#1A8CFE;
+        font-weight: 400;
+      }
+    }
+  }
+}

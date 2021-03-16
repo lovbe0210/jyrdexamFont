@@ -1,0 +1,74 @@
+@import '~@/assets/css/function.scss';
+@import '~@/assets/css/mixin.scss';
+.entry {
+  .title{
+    background: #1A8CFE;
+    font-size: 17px;
+    line-height: 45px;
+    width: 100%;
+    .left{
+      color: #fff;
+      margin-top: 50px;
+    }
+    .mid{
+      color: #fff;
+      font-size: 17px;
+      margin-top: 14px;
+    }
+    .right{
+      margin-top: 6px;
+      .mark{
+        margin-left: 6px;
+      }
+    }
+    .return{
+      margin-top: 3px;
+    }
+  }
+  .wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+  }
+  .block {
+    width: 96%;
+    height: 580px;
+    background-color: #fff;
+    .marked{
+      margin-top: 6px;
+      .markedItem{
+        width: 37px;
+        height: 37px;
+        background-color:#F95224;
+        font-size: 13px;
+      }
+      .unmarkedItem{
+        font-size: 13px;
+      }
+    }
+  }
+  .singleQuestion{
+    .warn{
+      margin-bottom: 5px;
+      margin-top: 5px;
+    }
+    .percent{
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+    .options{
+      height: 300px;
+      margin-top: 10px;
+      .option{
+        margin-top: 30px;
+      }
+    }
+  }
+  .loading{
+    margin-top: 30px;
+  }
+  .button{
+    margin-top: 20px;
+  }
+}

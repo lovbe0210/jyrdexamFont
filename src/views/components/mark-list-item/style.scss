@@ -1,0 +1,32 @@
+@import '~@/assets/css/mixin.scss';
+@import '~@/assets/css/function.scss';
+.lists {
+  &-item {
+    padding: half(1px) half(2px) half(2px);
+    background: #fff;
+    overflow: hidden;
+    position: relative;
+    border-bottom: half(1px) solid #ddd;
+    &:last-child {
+      border: 0;
+    }
+    .label {
+      font-size: half(30px);
+      margin: half(15px) half(0px) half(4px) half(0px);
+      color: #333b46;
+      height: half(35px);
+      line-height: half(35px);
+      @include omit;
+    }
+    .info {
+      margin: half(8px) half(8px) half(8px) half(100px);
+      .desc {
+        color: #bbc0cb;
+        font-size: half(26px);
+        @include omit;
+        line-height: half(26px);
+        margin-bottom: half(15px);
+      }
+    }
+  }
+}

@@ -1,0 +1,80 @@
+@import '~@/assets/css/mixin.scss';
+@import '~@/assets/css/function.scss';
+.entry {
+  background: #ffffff;
+  height: 100%;
+  .header-title{
+    height: 45px;
+    background: #1A8CFE;
+    font-size: 16px;
+    color: #fff;
+    line-height: 45px;
+    width: 100%;
+    text-align: center;
+    z-index: 1040;
+  }
+  .logo{
+    height: 100px;
+    position:relative;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  .errorMsg{
+    margin: auto;
+    width: 50%;
+    text-align: center;
+    font-size: 12px;
+    color: red;
+    margin-bottom: 10px;
+  }
+  .input{
+    margin-left: 30px;
+    width: 70%;
+    .text{
+      font-size: 12px;
+      margin-top: 16px;
+      color: #1A8CFE;
+    }
+  }
+  .hidden{
+    margin-left: 47px;
+    font-size: 12px;
+    color: #B4B6BD;
+  }
+  .line{
+    margin-left: 45px;
+    margin-bottom: 20px;
+    width: 75%;
+    border-style: solid; 
+    border-width: 1px; 
+    border-top-color:rgb(255, 255, 255) ;
+    border-left-color:rgb(255, 255, 255) ;
+    border-right-color:rgb(255, 255, 255) ;
+  }
+  .forgetpwd{
+    font-size: 12px;
+    color: #B4B6BD;
+    margin-top: 15px;
+    margin-left: 220px;
+    margin-bottom: 50px;
+  }
+  .regist{
+    font-size: 12px;
+    color: #B4B6BD;
+    margin-top: 15px;
+    margin-left: 30px;
+  }
+  .sumitBtn{
+    width: 80%;
+    margin: auto;
+  }
+  .ph{
+    margin-left: 125px;
+    margin-top: 2px;
+    .text{
+      font-size: 12px;
+      color: #9fa0a5;
+    }
+  }
+  
+}

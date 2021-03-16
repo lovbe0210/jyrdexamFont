@@ -1,0 +1,57 @@
+@import '~@/assets/css/function.scss';
+
+$paddingLeft: half(29px);
+#mineEntry {
+  background: #EFF3F7;
+  .avatar-wrapper {
+    display: flex;
+    position: relative;
+    height: half(400px);
+    background-image: url(https://lovbe-lvyiclub.oss-cn-beijing.aliyuncs.com/exam/mine.png);
+    background-size: cover;
+    background-position: center;
+    .img{
+      margin: auto;
+    }
+    img {
+      border: 1px solid #1C86EE;
+      width: half(300px);
+      height: half(300px);
+      border-radius: 50%;
+      overflow: hidden;
+    }
+  }
+  .list {
+    margin: 15px 10px 10px 10px;
+    .rignt{
+      color: #1A8DFF;
+    }
+    .examScore {
+      padding: 16px 16px 250px;
+      font-size: 12px;
+      text-align: center;
+      .title{
+        margin-bottom: 12px;
+        margin-right: 2px;
+        color: #1A8DFF;
+      }
+    }
+    .updatePwd{
+      padding: 16px 16px 150px;
+      font-size: 12px;
+      text-align: center;
+      
+    }
+    .account-item {
+      display: flex;
+      flex-wrap: wrap;
+      height: half(320px);
+      > li {
+        display: flex;
+        width: 50%;
+        justify-content: center;
+        align-items: center;
+      }
+    }
+  }
+}

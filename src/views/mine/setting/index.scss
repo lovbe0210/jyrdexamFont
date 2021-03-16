@@ -1,0 +1,81 @@
+@import '~@/assets/css/function.scss';
+@import '~@/assets/css/variable.scss';
+
+#mineSetting {
+  .header-title{
+    height: 45px;
+    background: #1A8CFE;
+    font-size: 16px;
+    color: #fff;
+    line-height: 45px;
+    width: 100%;
+    text-align: center;
+    z-index: 1040;
+    margin-bottom: 15px;
+  }
+  .van-cell__value {
+    font-size: half(28px);
+    color: #bbc0cb;
+  }
+  .van-cell__title {
+    font-size: half(32px);
+    color: $font-color-black;
+  }
+  .top-cell-group {
+    margin-bottom: half(30px);
+    .van-cell {
+      height: 50px;
+      align-items: center;
+      justify-content: center;
+      .gender-wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        .van-switch--on {
+          background-color: #45adff;
+        }
+      }
+    }
+    .avatar{
+      height: 100px;
+      .text{
+        margin-left: 18px;
+        margin-top: 30px;
+      }
+      .img{
+        margin-top: 10px;
+        margin-left: 85px;
+        border-radius: 50%;
+      }
+      .icon{
+        vertical-align: top;
+        margin-top: 10px;
+      }
+    }
+    
+  }
+  .help-cell-group {
+    margin-bottom: half(20px);
+    van-cell{
+      height: 60px;
+    }
+  }
+  .sign-out-btn-wrapper {
+    padding: 0 half(0px);
+    .van-button {
+      background-color: #45adff;
+      border-radius: 8px;
+      font-size: half(28px);
+      color: #ffffff;
+    }
+  }
+  .returnBtn{
+    width: 90%;
+    margin-left: 20px;
+    margin-bottom: 10px;
+  }
+  .confirmBtn{
+    width: 90%;
+    margin-left: 20px;
+  }
+}

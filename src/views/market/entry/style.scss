@@ -1,0 +1,46 @@
+@import '~@/assets/css/function.scss';
+@import '~@/assets/css/mixin.scss';
+.entry {
+  .header-title{
+    height: 45px;
+    background: #1A8CFE;
+    font-size: 16px;
+    color: #fff;
+    line-height: 45px;
+    width: 100%;
+    text-align: center;
+    z-index: 1040;
+  }
+  .searchWrapper {
+    background: #fff;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: half(80px);
+    padding: 0 half(16px);
+    z-index: 999;
+    display: flex;
+    @include clearfix;
+    .selectbox{
+      height: 100%;
+      line-height: half(80px);
+      color: #333b46;
+      margin-right: 0.42667rem;
+      .label{
+        max-width: half(180px);
+        margin-right: half(10px);
+        @include omit;
+        font-size: half(26px);
+      }
+    }
+    .inputbox{
+      flex: 1;
+      .van-search {
+        width: 100%;
+      }
+    }
+  }
+  .subnavWrapper{
+    margin-top: half(88px);
+  }
+}
