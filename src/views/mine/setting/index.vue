@@ -28,7 +28,7 @@
       />
       <van-field
         v-model="userInfo.workNum"
-        label="姓名"
+        label="工号"
         :value="userInfo.workNum"
         input-align="center"
       />
@@ -149,7 +149,7 @@ export default {
       data.append('file', content)
       axios({
         method: 'Post',
-        url: 'http://192.168.1.8:9527/ucenter/fileUpload',
+        url: 'http://47.108.169.157:9527/ucenter/fileUpload',
         headers: { 'Content-Type': 'multipart/form-data' },
         data: data
       }).then(response => {
