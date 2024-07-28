@@ -1,6 +1,6 @@
 注：项目框架参照 wqb2017/vue-vant-axios 项目，致谢！
 
-公司员工在线考试系统
+在线考试系统
 
 当前项目为员工答题移动端 演示地址：http://exam.lvyi.club  [后端](https://github.com/lovbe0210/jyrdexam)演示地址：http://admin.lvyi.club
 
